@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+    padding: 5px;
+}
+
+.files {
+  list-style-type: none;
+}
+
+.files li {
+  margin: 10px;
+}
+
+a:hover {
+  color: white;
+  background-color: tomato;
+}
