@@ -28,7 +28,7 @@ function callback(data) {
       }
 
       // append link, title, filetype, thumbnail
-      var $link = $('<a href="' + fileURL + '">' + title + '</a>')
+      var $link = $('<a class="link" href="' + fileURL + '">' + title + '</a>')
       // var $link = title
       $post.append($link)
 

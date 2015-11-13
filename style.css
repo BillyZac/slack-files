@@ -4,6 +4,17 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bold;
+
+}
+
+a:hover {
+  color: #28D5D5;
+}
+
 .thumbnail {
   height: 100px;
   width: 100px;
