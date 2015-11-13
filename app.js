@@ -21,7 +21,6 @@ function callback(data) {
     // var name = data.files[i].name
 
     // create div for new item
-    console.log(fileType)
     var $post = $('<div class="post"></div>')
     if (fileType === 'JPEG' || fileType === 'PNG' || fileType === 'GIF') {
       $post.append('<img class="thumbnail" src="' + thumbnail + '" alt="' + title + '">')
@@ -40,3 +39,13 @@ function callback(data) {
 }
 
 $.getJSON(dataURI, options, callback )
+
+function getFileTypeSelection() {
+  return $('select').val()
+}
+
+// Watch selector, (and filter the list?)
+$('select').on('input', function() {
+  var $filetype = $(this).val()
+  console.log($filetype)
+})
