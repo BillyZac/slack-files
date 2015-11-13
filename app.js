@@ -8,6 +8,8 @@ var dataURI = 'https://slack.com/api/files.list?token=xoxp-2254406793-1272905981
 var options = {}
 
 function callback(data) {
+  // Remove the spinner
+  $('.spinner').remove()
   function drawList(fileTypeSelected) {
     // First remove all the previously drawn posts from the DOM
     $('.post').fadeOut(200, function() {

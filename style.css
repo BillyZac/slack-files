@@ -77,3 +77,10 @@ a:hover {
 .select-file-type select:focus {
     outline: none;
 }
+
+/* SPINNER */
+.spinner {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
