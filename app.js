@@ -10,7 +10,9 @@ var options = {}
 function callback(data) {
   function drawList(fileTypeSelected) {
     // First remove all the previously drawn posts from the DOM
-    $('.post').remove()
+    $('.post').fadeOut(200, function() {
+      $('this').remove()
+    })
 
     for (var i=0; i<data.files.length; i++) {
       // Put the useful bits of data into nice names
