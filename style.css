@@ -24,6 +24,37 @@ body {
   margin-bottom: 5px;
 }
 
+/*.select-file-type {
+  background-color: #333;
+  position: fixed;
+  left: 20px;
+  height: 300px;
+  width: 200px;
+
+}*/
 .select-file-type {
-  border: 1px solid black;
+  position: fixed;
+  left: 20px;
+  margin: 0;
+  width: 150px;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-file-type select {
+  background: #fff;
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.select-file-type select:focus {
+    outline: none;
 }

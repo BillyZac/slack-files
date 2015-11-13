@@ -12,7 +12,6 @@ function callback(data) {
     // First remove all the previously drawn posts from the DOM
     $('.post').remove()
 
-
     for (var i=0; i<data.files.length; i++) {
       // Put the useful bits of data into nice names
       var title = data.files[i].title
@@ -29,8 +28,7 @@ function callback(data) {
       }
 
       // append link, title, filetype, thumbnail
-      // var $link = $('<a href="' + fileURL + '">' + title + '</a>')
-      var $link = $('<a href="' + fileURL + '">' + fileType + '</a>')
+      var $link = $('<a href="' + fileURL + '">' + title + '</a>')
       // var $link = title
       $post.append($link)
 
