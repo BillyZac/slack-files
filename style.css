@@ -1,8 +1,26 @@
 body {
   font-family: sans-serif;
+  color: #E9A820;
+  margin: 0;
+}
+
+header {
+  background-color: #E9A820;
+  color: #FFF;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding-top: 100px;
   width: 600px;
   margin: 0 auto;
-  color: #E9A820;
 }
 
 a {
@@ -47,16 +65,9 @@ a:hover {
   border-left: 3px solid #E01563;
 }
 
-/*.select-file-type {
-  background-color: #333;
-  position: fixed;
-  left: 20px;
-  height: 300px;
-  width: 200px;
-
-}*/
 .select-file-type {
   position: fixed;
+  top: 120px;
   left: 20px;
   margin: 0;
   width: 150px;
