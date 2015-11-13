@@ -1,22 +1,25 @@
 body {
   font-family: sans-serif;
+  width: 600px;
+  margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: tomato;
-    padding: 5px;
+.thumbnail {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.files {
-  list-style-type: none;
+.fake-thumbnail {
+  height: 100px;
+  width: 100px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 
-.files li {
-  margin: 10px;
-}
-
-a:hover {
-  color: white;
-  background-color: tomato;
+.post {
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
 }
