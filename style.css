@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -32,11 +32,15 @@ a:hover {
 }
 
 .post {
-  border: 1px solid black;
+  box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
   padding: 5px;
   margin-bottom: 5px;
   display: flex;
   flex-direction: row;
+}
+
+.post:hover {
+  box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.5);
 }
 
 /*.select-file-type {
