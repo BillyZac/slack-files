@@ -2,17 +2,19 @@ body {
   font-family: sans-serif;
   width: 600px;
   margin: 0 auto;
+  color: #E9A820;
 }
 
 a {
   text-decoration: none;
-  color: aqua;
+  color: #6ECADC;
   font-weight: bold;
   font-size: 24px;
+  padding-top: 15px;
 }
 
 a:hover {
-  color: #28D5D5;
+  color: #E01563;
 }
 
 .thumbnail {
@@ -33,14 +35,16 @@ a:hover {
 
 .post {
   box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 5px;
   display: flex;
   flex-direction: row;
+  border-left: 3px solid #6ECADC;
 }
 
 .post:hover {
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.5);
+  border-left: 3px solid #E01563;
 }
 
 /*.select-file-type {
