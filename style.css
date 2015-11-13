@@ -23,3 +23,7 @@ body {
   padding: 5px;
   margin-bottom: 5px;
 }
+
+.select-file-type {
+  border: 1px solid black;
+}
