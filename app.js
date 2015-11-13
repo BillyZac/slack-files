@@ -6,7 +6,8 @@
 var dataURI = 'https://slack.com/api/files.list?token=xoxp-2254406793-12729059815-14447487441-6f7925dadf&pretty=1'
 // dataURI += '&' + token + '?jsoncallback=?'
 var options = {}
-
+$spinner = $('<div class="spinner"><img src="http://histpics.msa.maryland.gov/images/loading.gif" alt="loading spinner" /></div>')
+$('main').append($spinner)
 function callback(data) {
   // Remove the spinner
   $('.spinner').remove()
