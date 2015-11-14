@@ -66,9 +66,6 @@ a:hover {
 }
 
 .select-file-type {
-  position: fixed;
-  top: 120px;
-  left: 20px;
   margin: 0;
   width: 150px;
   overflow: hidden;
@@ -77,6 +74,7 @@ a:hover {
 }
 
 .select-file-type select {
+  margin-left: 15px;
   background: #fff;
   padding: 5px 8px;
   width: 130%;
@@ -91,6 +89,14 @@ a:hover {
 
 .select-file-type select:focus {
     outline: none;
+}
+
+.select-container {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  height: 200px;
+  border-left: 5px solid #E01563;
 }
 
 /* SPINNER */
