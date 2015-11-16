@@ -1,9 +1,15 @@
 // User:
 // billyzac
 //
+console.log('Set the token in Local Storage:')
+console.log('localStorage.setItem("token", [put your token here])')
+console.log('Then reload the page.')
+
 // Token:
-// var token = 'xoxp-2254406793-12729059815-14447487441-6f7925dadf'
-var dataURI = 'https://slack.com/api/files.list?token=xoxp-2254406793-12729059815-14447487441-6f7925dadf&pretty=1'
+var token = localStorage.getItem("token")
+var dataURI = 'https://slack.com/api/files.list?' +
+'token=' + token +
+'&pretty=1'
 // dataURI += '&' + token + '?jsoncallback=?'
 var options = {}
 $spinner = $('<div class="spinner"><img src="http://histpics.msa.maryland.gov/images/loading.gif" alt="loading spinner" /></div>')
